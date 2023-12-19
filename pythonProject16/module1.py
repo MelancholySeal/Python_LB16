@@ -1,7 +1,6 @@
 # my_module.py
 
-def inner_function(x):
-    return x + 3
-
 def outer_function():
+    def inner_function(x):
+        return x + 3
     return inner_function
